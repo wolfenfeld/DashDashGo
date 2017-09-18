@@ -28,7 +28,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         figure={
             'data': [
                 {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'SF'},
-                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': 'Montréal'},
+                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': 'Montral'},
             ],
             'layout': {
                 'plot_bgcolor': colors['background'],
@@ -42,4 +42,4 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True, host='0.0.0.0', port='80')
+    app.run_server(debug=True, host='0.0.0.0', port=8050)
